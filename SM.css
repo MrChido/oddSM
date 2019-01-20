@@ -1,0 +1,48 @@
+.pStat{
+width: 30px;
+}
+
+#sValue{
+position: relative;
+left: 4px;
+}
+#mValue{
+position: relative;
+left: 6px;
+}
+#hValue {
+position: relative;
+left: 1px;
+}
+#aValue{
+position: relative;
+left: 1px;
+}
+#pCount{
+width: 30px;
+position: relative;
+left: 30px;
+}
+#hDice {
+width: 30px;
+}
+#skill5{
+position: relative;
+left: 39px;
+}
+#skill4{
+position: relative;
+left: 45px;
+}
+#skill3{
+position: relative;
+left: 33px;
+}
+#skill2{
+position: relative;
+left: 40px;
+}
+#skill1{
+position: relative;
+left: 28px;
+}

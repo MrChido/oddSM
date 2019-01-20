@@ -6,12 +6,7 @@
 </head>
 <body>
 <h1>One Deck Dungeon Stat Manager</h1>
-<p>So, there is no dedicated Player Stat manager on the Apple App store.
-<br>This is the reason why I am creating this web app.
-<br>During normal game play there are cards that get tucked under the players character card, this can be a hassle to do, and some may hide or get hidden.
-<br>This web app is to consolidate that information that the player has acquired into a mobile minded app.
-<br>This could also allow the cards, that would have been kept by the player, to remain in circulation.</p>
-
+<p><a href="./aboutApp.html" >about</a></p>
 <h2>The Player</h2>
 <label for "playerName"> Players Name</label>
 <input type="text" id="playerName">
@@ -35,6 +30,10 @@
 	<option value="Lv4">Level 4</option>
 </select>	
 <div>
+<button id="set" name="Set" value="Set" type="submit">Set</button>
+<button id="ng" name="newGame" type="reset">New Game</button>
+</div>
+<div>
 <label for 'aValue'>Attack</label>
 <input type="number" id="aValue">
 <br><label for 'sValue'>Speed</label>
@@ -45,6 +44,7 @@
 <input type="number" id="hValue">
 <br><label for="poiValue">Poison</label>
 <input type="number" id="poiValue">
+
 </div>
 <div>
 <h4>Available Items</h4>
@@ -55,6 +55,10 @@
 <input type="checkbox" id="Aitem5">
 <input type="checkbox" id="Aitem6">
 <input type="checkbox" id="Aitem7">
+<br><label for="hDice">Heroic Dice</label>
+<input type="number" id="hDice" readonly="">
+<br><label for="pCount">Potions</label>
+<input type="number" id="pCount">
 </div>
 <div>
 <h4>Players Skill Set</h4>
@@ -71,10 +75,7 @@
 <br><label for 'skill6'>Additional skill*</label>
 <input type="text" id="skill6">
 </div>
-<div>
-<button id="set" name="Set" value="Set" type="submit">Set</button>
-<button id="ng" name="newGame" type="reset">New Game</button>
-</div>
+
 <p>*-- This skill is given by players campagin achievement</p>
 <script type="text/javascript" src="./SM.js" ></script>
 </body>

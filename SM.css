@@ -46,3 +46,9 @@ left: 40px;
 position: relative;
 left: 28px;
 }
+body{
+background-image:url("./imgs/dungeonWall.png");
+}
+h1,h2,h3,label,h4,p{
+color:#8bbd3e;
+}

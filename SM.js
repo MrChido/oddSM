@@ -1,12 +1,35 @@
 //html asset link
 const pSet= document.getElementById('set');
 const campSkill =document.getElementById('skill6');
-
+const valU =document.getElementById('nV');
 
 //javascript do something
 /*campSkill.addEventListener('dblclick', ()=>{
 	skill6.disabled=false;
 });*/
+
+valU.addEventListener('click',()=>{
+	// hearts modifier
+	if(hValue.value =='6'){
+		hrt6.style.display='none';
+		hrt7.style.display='none';
+		hrt8.style.display='none';
+		hrt9.style.display='none';
+
+	}
+	if(hValue.value =='7'){
+		hrt7.style.display='none';
+		hrt8.style.display='none';
+		hrt9.style.display='none';
+	}
+	if(hValue.value =='8'){
+		hrt8.style.display='none';
+		hrt9.style.display='none';
+	}
+	if(hValue.value =='9'){
+		hrt9.style.display='none';
+	}
+});
 
 pSet.addEventListener('click', ()=>{
 	//Item and aditional skill modifiers	
@@ -84,6 +107,11 @@ if (pClass.value=='hunter') {
 	sValue.placeholder='3';
 	mValue.placeholder='1';
 	hValue.placeholder='5';
+	hrt5.style.display='none';
+	hrt6.style.display='none';
+	hrt7.style.display='none';
+	hrt8.style.display='none';
+	hrt9.style.display='none';	
 	}
 if(pClass.value=='slayer'){
 	aValue.placeholder='2';

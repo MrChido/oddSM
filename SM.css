@@ -52,6 +52,6 @@ background-image:url("./imgs/dungeonWall.png");
 h1,h2,h3,label,h4,p{
 color:#8bbd3e;
 }
-.hrt{
+.hrt,.sword,.maj{
 width:25px;
 }

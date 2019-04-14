@@ -11,6 +11,7 @@ const valU =document.getElementById('nV');
 valU.addEventListener('click',()=>{
 	// hearts modifier
 	if(hValue.value =='6'){
+		hrt5.style.display='true';
 		hrt6.style.display='none';
 		hrt7.style.display='none';
 		hrt8.style.display='none';
@@ -18,16 +19,37 @@ valU.addEventListener('click',()=>{
 
 	}
 	if(hValue.value =='7'){
+		hrt5.style.display='block';
+		hrt6.style.display='block';
 		hrt7.style.display='none';
 		hrt8.style.display='none';
 		hrt9.style.display='none';
 	}
 	if(hValue.value =='8'){
+		hrt5.style.display='block';
+		hrt6.style.display='block';
+		hrt7.style.display='block';
 		hrt8.style.display='none';
 		hrt9.style.display='none';
 	}
 	if(hValue.value =='9'){
+		hrt5.style.display='block';
+		hrt6.style.display='block';
+		hrt7.style.display='block';
+		hrt8.style.display='block';
 		hrt9.style.display='none';
+	}
+	if(hValue.value=='10'){
+		hrt1.style.display='block';
+		hrt2.style.display='block';
+		hrt3.style.display='block';
+		hrt4.style.display='block';
+		hrt5.style.display='block';
+		hrt6.style.display='block';
+		hrt7.style.display='block';
+		hrt8.style.display='block';
+		hrt9.style.display='block';
+		hrt0.style.display='block';
 	}
 });
 
@@ -111,66 +133,301 @@ if (pClass.value=='hunter') {
 	hrt6.style.display='none';
 	hrt7.style.display='none';
 	hrt8.style.display='none';
-	hrt9.style.display='none';	
+	hrt9.style.display='none';
+	swrd3.style.display='none';	
+	swrd4.style.display='none';	
+	swrd5.style.display='none';	
+	swrd6.style.display='none';	
+	swrd7.style.display='none';	
+	swrd8.style.display='none';
+	swrd9.style.display='none';	
+	mag1.style.display='none';
+	mag2.style.display='none';
+	mag3.style.display='none';
+	mag4.style.display='none';
+	mag5.style.display='none';
+	mag6.style.display='none';
+	mag7.style.display='none';
+	mag8.style.display='none';
+	mag9.style.display='none';
+
 	}
 if(pClass.value=='slayer'){
 	aValue.placeholder='2';
 	sValue.placeholder='4';
 	mValue.placeholder='1';
 	hValue.placeholder='5';
+	hrt5.style.display='none';
+	hrt6.style.display='none';
+	hrt7.style.display='none';
+	hrt8.style.display='none';
+	hrt9.style.display='none';
+	swrd2.style.display='none';
+	swrd3.style.display='none';	
+	swrd4.style.display='none';	
+	swrd5.style.display='none';	
+	swrd6.style.display='none';	
+	swrd7.style.display='none';	
+	swrd8.style.display='none';	
+	swrd9.style.display='none';	
+	mag1.style.display='none';
+	mag2.style.display='none';
+	mag3.style.display='none';
+	mag4.style.display='none';
+	mag5.style.display='none';
+	mag6.style.display='none';
+	mag7.style.display='none';
+	mag8.style.display='none';
+	mag9.style.display='none';
+
 	}
 if(pClass.value=='warden'){
 	aValue.placeholder='4';
 	sValue.placeholder='1';
 	mValue.placeholder='2';
 	hValue.placeholder='5';
+	hrt5.style.display='none';
+	hrt6.style.display='none';
+	hrt7.style.display='none';
+	hrt8.style.display='none';
+	hrt9.style.display='none';
+	swrd4.style.display='none';
+	swrd5.style.display='none';	
+	swrd6.style.display='none';	
+	swrd7.style.display='none';	
+	swrd8.style.display='none';	
+	swrd9.style.display='none';
+	mag1.style.display='true';
+	mag2.style.display='none';
+	mag3.style.display='none';
+	mag4.style.display='none';
+	mag5.style.display='none';
+	mag6.style.display='none';
+	mag7.style.display='none';
+	mag8.style.display='none';
+	mag9.style.display='none';
+	
 	}
 if(pClass.value=='caliana'){
 	aValue.placeholder='1';
 	sValue.placeholder='1';
 	mValue.placeholder='4';
 	hValue.placeholder='0';
+	swrd1.style.display='none';	
+	swrd2.style.display='none';	
+	swrd3.style.display='none';	
+	swrd4.style.display='none';	
+	swrd5.style.display='none';	
+	swrd6.style.display='none';	
+	swrd7.style.display='none';	
+	swrd8.style.display='none';	
+	swrd9.style.display='none';
+	mag1.style.display='true';
+	mag2.style.display='true';
+	mag3.style.display='true';
+	mag4.style.display='none';
+	mag5.style.display='none';
+	mag6.style.display='none';
+	mag7.style.display='none';
+	mag8.style.display='none';
+	mag9.style.display='none';
 	}
 if(pClass.value=='druid'){
 	aValue.placeholder='1';
 	sValue.placeholder='2';
 	mValue.placeholder='4';
 	hValue.placeholder='5';
+	hrt5.style.display='none';
+	hrt6.style.display='none';
+	hrt7.style.display='none';
+	hrt8.style.display='none';
+	hrt9.style.display='none';
+	swrd1.style.display='none';	
+	swrd2.style.display='none';	
+	swrd3.style.display='none';	
+	swrd4.style.display='none';	
+	swrd5.style.display='none';	
+	swrd6.style.display='none';	
+	swrd7.style.display='none';	
+	swrd8.style.display='none';	
+	swrd9.style.display='none';	
+	mag1.style.display='true';
+	mag2.style.display='true';
+	mag3.style.display='true';
+	mag4.style.display='none';
+	mag5.style.display='none';
+	mag6.style.display='none';
+	mag7.style.display='none';
+	mag8.style.display='none';
+	mag9.style.display='none';
 	}
 if(pClass.value=='alchemist'){
 	aValue.placeholder='2';
 	sValue.placeholder='2';
 	mValue.placeholder='3';
 	hValue.placeholder='5';
+	hrt5.style.display='none';
+	hrt6.style.display='none';
+	hrt7.style.display='none';
+	hrt8.style.display='none';
+	hrt9.style.display='none';
+	swrd2.style.display='none';	
+	swrd3.style.display='none';	
+	swrd4.style.display='none';	
+	swrd5.style.display='none';	
+	swrd6.style.display='none';	
+	swrd7.style.display='none';	
+	swrd8.style.display='none';	
+	swrd9.style.display='none';	
+	mag1.style.display='true';
+	mag2.style.display='true';
+	mag3.style.display='none';
+	mag4.style.display='none';
+	mag5.style.display='none';
+	mag6.style.display='none';
+	mag7.style.display='none';
+	mag8.style.display='none';
+	mag9.style.display='none';
 	}
 if(pClass.value=='warrior'){
 	aValue.placeholder='4';
 	sValue.placeholder='2';
 	mValue.placeholder='1';
 	hValue.placeholder='5';
+	hrt5.style.display='none';
+	hrt6.style.display='none';
+	hrt7.style.display='none';
+	hrt8.style.display='none';
+	hrt9.style.display='none';
+	swrd4.style.display='none';	
+	swrd5.style.display='none';	
+	swrd6.style.display='none';	
+	swrd7.style.display='none';	
+	swrd8.style.display='none';	
+	swrd9.style.display='none';	
+	mag1.style.display='none';
+	mag2.style.display='none';
+	mag3.style.display='none';
+	mag4.style.display='none';
+	mag5.style.display='none';
+	mag6.style.display='none';
+	mag7.style.display='none';
+	mag8.style.display='none';
+	mag9.style.display='none';
+
 	}
 if(pClass.value=='archer'){
 	aValue.placeholder='2';
 	sValue.placeholder='3';
 	mValue.placeholder='2';
 	hValue.placeholder='5';
+	hrt5.style.display='none';
+	hrt6.style.display='none';
+	hrt7.style.display='none';
+	hrt8.style.display='none';
+	hrt9.style.display='none';
+	swrd2.style.display='none';	
+	swrd3.style.display='none';	
+	swrd4.style.display='none';	
+	swrd5.style.display='none';	
+	swrd6.style.display='none';	
+	swrd7.style.display='none';	
+	swrd8.style.display='none';	
+	swrd9.style.display='none';	
+	mag1.style.display='block';
+	mag2.style.display='none';
+	mag3.style.display='none';
+	mag4.style.display='none';
+	mag5.style.display='none';
+	mag6.style.display='none';
+	mag7.style.display='none';
+	mag8.style.display='none';
+	mag9.style.display='none';
 	}
 if(pClass.value=='mage'){
 	aValue.placeholder='1';
 	sValue.placeholder='2';
 	mValue.placeholder='4';
 	hValue.placeholder='5';
+	hrt5.style.display='none';
+	hrt6.style.display='none';
+	hrt7.style.display='none';
+	hrt8.style.display='none';
+	hrt9.style.display='none';
+	swrd1.style.display='none';	
+	swrd2.style.display='none';	
+	swrd3.style.display='none';	
+	swrd4.style.display='none';	
+	swrd5.style.display='none';	
+	swrd6.style.display='none';	
+	swrd7.style.display='none';	
+	swrd8.style.display='none';	
+	swrd9.style.display='none';	
+	mag1.style.display='true';
+	mag2.style.display='true';
+	mag3.style.display='true';
+	mag4.style.display='none';
+	mag5.style.display='none';
+	mag6.style.display='none';
+	mag7.style.display='none';
+	mag8.style.display='none';
+	mag9.style.display='none';
 	}
 if(pClass.value=='rouge'){
 	aValue.placeholder='1';
 	sValue.placeholder='4';
 	mValue.placeholder='2';
 	hValue.placeholder='5';
+	hrt5.style.display='none';
+	hrt6.style.display='none';
+	hrt7.style.display='none';
+	hrt8.style.display='none';
+	hrt9.style.display='none';
+	swrd1.style.display='none';	
+	swrd2.style.display='none';	
+	swrd3.style.display='none';	
+	swrd4.style.display='none';	
+	swrd5.style.display='none';	
+	swrd6.style.display='none';	
+	swrd7.style.display='none';	
+	swrd8.style.display='none';	
+	swrd9.style.display='none';	
+	mag1.style.display='true';
+	mag2.style.display='none';
+	mag3.style.display='none';
+	mag4.style.display='none';
+	mag5.style.display='none';
+	mag6.style.display='none';
+	mag7.style.display='none';
+	mag8.style.display='none';
+	mag9.style.display='none';
 	}
 if(pClass.value=='paladin'){
 	aValue.placeholder='3';
 	sValue.placeholder='1';
 	mValue.placeholder='3';
 	hValue.placeholder='5';
+	hrt5.style.display='none';
+	hrt6.style.display='none';
+	hrt7.style.display='none';
+	hrt8.style.display='none';
+	hrt9.style.display='none';
+	swrd3.style.display='none';	
+	swrd4.style.display='none';	
+	swrd5.style.display='none';	
+	swrd6.style.display='none';	
+	swrd7.style.display='none';	
+	swrd8.style.display='none';	
+	swrd9.style.display='none';
+	mag1.style.display='true';
+	mag2.style.display='true';
+	mag3.style.display='none';
+	mag4.style.display='none';
+	mag5.style.display='none';
+	mag6.style.display='none';
+	mag7.style.display='none';
+	mag8.style.display='none';
+	mag9.style.display='none';
+	
 	}
 });

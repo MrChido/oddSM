@@ -1,57 +1,32 @@
 //html asset link
 const pSet= document.getElementById('set');
-const campSkill =document.getElementById('skill6');
-const valU =document.getElementById('nV');
-
+const campSkill= document.getElementById('skill6');
+const NewSword= document.getElementById('nS');
+const NewSpeed= document.getElementById('nP');
+const NewMajik= document.getElementById('nM');
+const NewHealth= document.getElementById('nH');
+const NewPoison= document.getElementById('nO');
 //javascript do something
 /*campSkill.addEventListener('dblclick', ()=>{
 	skill6.disabled=false;
 });*/
 
-valU.addEventListener('click',()=>{
-	// hearts modifier
-	if(hValue.value =='6'){
-		hrt5.style.display='true';
-		hrt6.style.display='none';
-		hrt7.style.display='none';
-		hrt8.style.display='none';
-		hrt9.style.display='none';
-
-	}
-	if(hValue.value =='7'){
-		hrt5.style.display='block';
-		hrt6.style.display='block';
-		hrt7.style.display='none';
-		hrt8.style.display='none';
-		hrt9.style.display='none';
-	}
-	if(hValue.value =='8'){
-		hrt5.style.display='block';
-		hrt6.style.display='block';
-		hrt7.style.display='block';
-		hrt8.style.display='none';
-		hrt9.style.display='none';
-	}
-	if(hValue.value =='9'){
-		hrt5.style.display='block';
-		hrt6.style.display='block';
-		hrt7.style.display='block';
-		hrt8.style.display='block';
-		hrt9.style.display='none';
-	}
-	if(hValue.value=='10'){
-		hrt1.style.display='block';
-		hrt2.style.display='block';
-		hrt3.style.display='block';
-		hrt4.style.display='block';
-		hrt5.style.display='block';
-		hrt6.style.display='block';
-		hrt7.style.display='block';
-		hrt8.style.display='block';
-		hrt9.style.display='block';
-		hrt0.style.display='block';
+NewSword.addEventListener('click',()=>{
+	//new sword values
+	if(aValue.value=='2'){
+		swrd0.style.display='block'
+		swrd1.style.display='block'
+		swrd2.style.display='none'
+		swrd3.style.display='none'
+		swrd4.style.display='none'
+		swrd5.style.display='none'
+		swrd6.style.display='none'
+		swrd7.style.display='none'
+		swrd8.style.display='none'
+		swrd8.style.display='none'
 	}
 });
+
 
 pSet.addEventListener('click', ()=>{
 	//Item and aditional skill modifiers	
